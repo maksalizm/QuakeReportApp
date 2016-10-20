@@ -1,5 +1,8 @@
 package com.example.android.quakereport;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
 /**
  * Created by pms on 2016. 10. 19..
  */
@@ -8,12 +11,14 @@ public class Earthquake {
 
     private double mMag;
     private String mPlace;
-    private String mDate;
+    private long mTimeInMilliseconds;
+    private String mUrl;
 
-    public Earthquake(double vMag, String vPlace, String vDate) {
+    public Earthquake(double vMag, String vPlace, long timeInMilliseconds, String vURL) {
         mMag = vMag;
         mPlace = vPlace;
-        mDate = vDate;
+        mTimeInMilliseconds = timeInMilliseconds;
+        mUrl = vURL;
     }
 
     public double getMag() {
@@ -24,7 +29,10 @@ public class Earthquake {
         return mPlace;
     }
 
-    public String getDate() {
-        return mDate;
+    public long getTimeInMilliseconds() {
+        return mTimeInMilliseconds;
+    }
+    public String getUrl(){
+        return mUrl;
     }
 }
