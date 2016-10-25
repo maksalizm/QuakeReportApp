@@ -1,8 +1,5 @@
 package com.example.android.quakereport;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-
 /**
  * Created by pms on 2016. 10. 19..
  */
