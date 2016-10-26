@@ -27,6 +27,7 @@ import android.widget.ListView;
 import android.app.LoaderManager;
 import android.app.LoaderManager.LoaderCallbacks;
 import android.content.Loader;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 
@@ -116,6 +117,11 @@ public class EarthquakeActivity extends AppCompatActivity implements LoaderCallb
 
         // If there is a valid list of {@link Earthquake}s, then add them to the adapter's
         // data set. This will trigger the ListView to update.
+
+        ProgressBar progressBar = (ProgressBar) findViewById(R.id.progress_view);
+
+        progressBar.setVisibility(View.GONE);
+
         if (earthquakes != null && !earthquakes.isEmpty()) {
             mAdapter.addAll(earthquakes);
         }
