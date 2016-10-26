@@ -42,6 +42,9 @@ public final class QueryUtils {
     }
 
     public static List fetchEarthquakeData(String requestUrl) {
+
+        Log.i(LOG_TAG, "'TEST: fetchEarthquakeDatav() called...");
+
         // Create URL object
         URL url = createUrl(requestUrl);
 
