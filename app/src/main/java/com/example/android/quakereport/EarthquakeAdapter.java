@@ -14,12 +14,14 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.text.DecimalFormat;
+import java.util.List;
 
 /**
  * Created by pms on 2016. 10. 19..
  */
 
 public class EarthquakeAdapter extends ArrayAdapter <Earthquake> {
+
 
     public EarthquakeAdapter(Activity context, ArrayList<Earthquake> earthquakes) {
         super(context, 0, earthquakes);

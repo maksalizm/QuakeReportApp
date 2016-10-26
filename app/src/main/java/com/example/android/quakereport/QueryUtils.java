@@ -20,6 +20,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
+import java.util.List;
 
 import static com.example.android.quakereport.EarthquakeActivity.LOG_TAG;
 
@@ -28,8 +29,11 @@ import static com.example.android.quakereport.EarthquakeActivity.LOG_TAG;
  */
 public final class QueryUtils {
 
+    /** Tag for the log messages */
+    private static final String LOG_TAG = QueryUtils.class.getSimpleName();
+
     /**
-     * ㅋ
+     *
      * Create a private constructor because no one should ever create a {@link QueryUtils} object.
      * This class is only meant to hold static variables and methods, which can be accessed
      * directly from the class name QueryUtils (and an object instance of QueryUtils is not needed).
@@ -37,7 +41,7 @@ public final class QueryUtils {
     private QueryUtils() {
     }
 
-    public static ArrayList fetchEarthquakeData(String requestUrl) {
+    public static List fetchEarthquakeData(String requestUrl) {
         // Create URL object
         URL url = createUrl(requestUrl);
 
@@ -50,43 +54,8 @@ public final class QueryUtils {
         }
 
         // Extract relevant fields from the JSON response and create an {@link Event} object
-        ArrayList <Earthquake> earthquakes = extractFeatureFromJson(jsonResponse);
+        List<Earthquake> earthquakes = extractFeatureFromJson(jsonResponse);
 
-        return earthquakes;
-    }
-
-
-    /**
-     * Return a list of {@link Earthquake} objects that has been built up from
-     * parsing a JSON response.
-     */
-    public static ArrayList<Earthquake> extractEarthquakes(String jsonResponse) {
-
-        ArrayList<Earthquake> earthquakes = new ArrayList<>();
-
-        try {
-
-
-            JSONObject root = new JSONObject(jsonResponse);
-            JSONArray features = root.getJSONArray("features");
-
-            for (int i = 0; i < features.length(); i++) {
-                JSONObject earthquake = features.getJSONObject(i);
-                JSONObject properties = earthquake.getJSONObject("properties");
-                double mag = properties.getDouble("mag");
-                String place = properties.getString("place");
-                long time = properties.getLong("time");
-                String url = properties.getString("url");
-                earthquakes.add(new Earthquake(mag, place, time, url));
-            }
-        } catch (JSONException e) {
-            // If an error is thrown when executing any of the above statements in the "try" block,
-            // catch the exception here, so the app doesn't crash. Print a log message
-            // with the message from the exception.
-            Log.e("QueryUtils", "Problem parsing the earthquake JSON results", e);
-        }
-
-        // Return the list of earthquakes
         return earthquakes;
     }
 
@@ -161,12 +130,53 @@ public final class QueryUtils {
         return output.toString();
     }
 
-    private static ArrayList extractFeatureFromJson(String earthquakeJSON) {
+    private static List extractFeatureFromJson(String earthquakeJSON) {
         // If the JSON string is empty or null, then return early.
         if (TextUtils.isEmpty(earthquakeJSON)) {
             return null;
         }
-        ArrayList<Earthquake> earthquakes = QueryUtils.extractEarthquakes(earthquakeJSON);
+        List<Earthquake> earthquakes = new ArrayList<>();
+
+        try {
+            JSONObject baseJsonResponse = new JSONObject(earthquakeJSON);
+            JSONArray earthquakeArray = baseJsonResponse.getJSONArray("features");
+
+            // For each earthquake in the earthquakeArray, create an {@link Earthquake} object
+            for (int i = 0; i < earthquakeArray.length(); i++) {
+
+                // Get a single earthquake at position i within the list of earthquakes
+                JSONObject currentEarthquake = earthquakeArray.getJSONObject(i);
+
+                // For a given earthquake, extract the JSONObject associated with the
+                // key called "properties", which represents a list of all properties
+                // for that earthquake.
+                JSONObject properties = currentEarthquake.getJSONObject("properties");
+
+                // Extract the value for the key called "mag"
+                double magnitude = properties.getDouble("mag");
+
+                // Extract the value for the key called "place"
+                String location = properties.getString("place");
+
+                // Extract the value for the key called "time"
+                long time = properties.getLong("time");
+
+                // Extract the value for the key called "url"
+                String url = properties.getString("url");
+
+                // Create a new {@link Earthquake} object with the magnitude, location, time,
+                // and url from the JSON response.
+                Earthquake earthquake = new Earthquake(magnitude, location, time, url);
+
+                // Add the new {@link Earthquake} to the list of earthquakes.
+                earthquakes.add(earthquake);
+            }
+        }  catch (JSONException e) {
+            // If an error is thrown when executing any of the above statements in the "try" block,
+            // catch the exception here, so the app doesn't crash. Print a log message
+            // with the message from the exception.
+            Log.e("QueryUtils", "Problem parsing the earthquake JSON results", e);
+        }
         return earthquakes;
     }
 }
