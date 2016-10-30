@@ -5,22 +5,22 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="492076703517080"
+    timestamp="492989937735533"
     token="4017533501849231822"
-    verifier="FIELD_TYPE_CHANGE" >
+    verifier="METHOD_ADDED" >
 
     <task
         name="javac"
-        duration="382" />
+        duration="200" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="69" />
+        duration="61" />
     <task
         name="verifier"
-        duration="25" />
+        duration="2" />
 
     <artifact
         location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
@@ -34,8 +34,8 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="492076703517080"
-        verifier="FIELD_TYPE_CHANGE" >
+        timestamp="492989937735533"
+        verifier="METHOD_ADDED" >
         <artifact
             location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
             type="DEX" />
