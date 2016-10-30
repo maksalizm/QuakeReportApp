@@ -5,33 +5,40 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="491407278812717"
+    timestamp="492076703517080"
     token="4017533501849231822"
-    verifier="BINARY_MANIFEST_FILE_CHANGE" >
+    verifier="FIELD_TYPE_CHANGE" >
 
     <task
         name="javac"
-        duration="720" />
+        duration="382" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="180" />
+        duration="69" />
     <task
         name="verifier"
-        duration="11" />
+        duration="25" />
 
     <artifact
-        location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="491407278812717"
+        timestamp="491637054493975"
         verifier="BINARY_MANIFEST_FILE_CHANGE" >
         <artifact
             location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="492076703517080"
+        verifier="FIELD_TYPE_CHANGE" >
+        <artifact
+            location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
