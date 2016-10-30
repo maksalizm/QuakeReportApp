@@ -5,40 +5,47 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="492989937735533"
+    timestamp="494323404698325"
     token="4017533501849231822"
-    verifier="METHOD_ADDED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="200" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="61" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
     <artifact
-        location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-        type="DEX" />
+        location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="491637054493975"
+        timestamp="493430273517661"
         verifier="BINARY_MANIFEST_FILE_CHANGE" >
         <artifact
             location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="492989937735533"
-        verifier="METHOD_ADDED" >
+        timestamp="494156202065516"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
+            location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/builds/debug/494156202065516/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="494323404698325"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

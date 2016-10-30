@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Oct 30 17:18:33 KST 2016
+#Sun Oct 30 18:03:19 KST 2016
 122.file=/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
 60.set=ANDROID_RESOURCE
 129.file=/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
