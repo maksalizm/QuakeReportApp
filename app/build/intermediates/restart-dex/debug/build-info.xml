@@ -5,47 +5,33 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="494323404698325"
-    token="4017533501849231822"
-    verifier="COMPATIBLE" >
+    timestamp="1248896550890192"
+    token="7547812714101500416"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="721" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="167" />
     <task
         name="verifier"
-        duration="0" />
+        duration="16" />
 
     <artifact
-        location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="493430273517661"
-        verifier="BINARY_MANIFEST_FILE_CHANGE" >
+        timestamp="1248896550890192"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/outputs/apk/app-debug.apk"
+            location="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="494156202065516"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/builds/debug/494156202065516/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="494323404698325"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

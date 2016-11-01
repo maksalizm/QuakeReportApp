@@ -3,75 +3,75 @@
 
     <item
         is-multidex="true"
-        jar="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="e5fe6b5210cdc38d380f26b7bc48942278052f4f">
-        <dex dex="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4f5e134aa5e9d72d963aca3f430ec4b0b60d2416/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="c7f33ea02112795519759893f6d9f6ec51bf5d65">
-        <dex dex="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_97e0561d0c865f4d0c82d85146b43edec94f003c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jar="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_66ff6952b37968da7984bb2f860bf59bf305a791/classes.dex" />
+        <dex dex="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_6acc35f4ada2abf22326b37badbdd22175ac17b2/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_796cca7db57afb8e6eb53fa68ea59aed3e06ac7b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_a80b648298bdb9804c0c0e7c6a89f02e0ba7dff5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maksalizm/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jar="/Users/pms/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_02f9c47b2ff7b21023978501895061da9f175839/classes.dex" />
+        <dex dex="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_ca7b7231a22a84142abe09f3e0d221e22ebc0889/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_1c445fc089754896e8de4fb3538d48c7ab74aa01/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jar="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/Users/maksalizm/AndroidStudioProjects/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_a367f7ba223609a03f82e6f1f851222bbbfc24c4/classes.dex" />
+        <dex dex="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_a114dc0e8613481b4f0aea3c103aa4b5f2d98d50/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_deff4958a0e46b564d1b9d48e80b444a9085c7f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="81480035a5d0db2714c970210da0129cd3f1d901">
+        <dex dex="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_edd4261190c9df4a593ca7809984719000750127/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="040a0d13f748d69c901d40dad3d5e155e562ecf7">
+        <dex dex="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d19d6bf04f83d52a67f33c67b1a26fada95d0f50/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_a982c29fc04cfad36e8933863b858a39cf6d38b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/pms/Downloads/ud843-QuakeReport-starting-point/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_7458db83eca280cadcb3696ae6e4ce2ce517cc2b/classes.dex" />
     </item>
 
 </items>
